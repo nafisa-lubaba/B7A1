@@ -27,7 +27,7 @@ function  checkType (value: StringOrNumber): string {
  function getProperty < T , K extends keyof T >(obj: T, key: K): T[K] {
     return obj[key]
  }
- const user = { id: 1, name: "John Doe", age: 21 };
+//  const user = { id: 1, name: "John Doe", age: 21 };
 
  // problem no-5:
  interface Book {
@@ -69,7 +69,7 @@ class Student extends Person{
         return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
     }
 }
-const student = new Student("Alice", 20, "A");
+// const student = new Student("Alice", 20, "A");
 
 
 // problem no-7:
