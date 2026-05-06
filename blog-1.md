@@ -1,4 +1,4 @@
-# Generics in TypeScript: Write Once, Use Everywhere (Without Losing Type Safety)
+# Generics in TypeScript
 
 ## Introduction
 

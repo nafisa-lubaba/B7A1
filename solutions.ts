@@ -70,7 +70,7 @@ class Student extends Person{
     }
 }
 const student = new Student("Alice", 20, "A");
-\
+
 
 // problem no-7:
  function getIntersection( array1: number[], array2: number[]): number[] {
