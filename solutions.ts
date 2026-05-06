@@ -44,7 +44,7 @@ function toggleReadStatus (book:Book): BookReadStatus {
     return {...book, isRead: true}
 }
 
-const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
+// const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
 
 
 
